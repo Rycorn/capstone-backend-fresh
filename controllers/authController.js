@@ -80,7 +80,7 @@ const handleLogin = async (req, res) => {
         }
     } catch (err) {
         console.log('fuck');
-        console.log('err');
+        console.log(err);
     }
 }
 
